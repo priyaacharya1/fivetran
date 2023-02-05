@@ -1,1 +1,1 @@
-select * from nba_players
+select * from google_sheets.nba_players;
