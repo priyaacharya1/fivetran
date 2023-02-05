@@ -1,4 +1,6 @@
-select * from google_sheets.nba_players where department='IT';
+select upper(first_name) as first_name,
+    upper(lastname) as last_name
+from {{ ref('nba_players') }}
 
 
 
