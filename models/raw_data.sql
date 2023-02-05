@@ -9,7 +9,7 @@ with nba_players as (
         lastname,
         department
 
-    from google_sheets.nba_players
+    from fivetran_database01.google_sheets.nba_players
 
 ),
 
