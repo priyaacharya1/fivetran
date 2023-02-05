@@ -1,0 +1,15 @@
+version: 2
+
+models:
+    - name: fivetran_googlesheet
+      description: "A starter dbt model"
+      columns:
+          - name: row
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+       
+
+    
+         
