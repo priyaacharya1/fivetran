@@ -1,7 +1,8 @@
+
 version: 2
 
 models:
-    - name: fivetran
+    - name: my_first_dbt_model
       description: "A starter dbt model"
       columns:
           - name: dd
@@ -10,4 +11,20 @@ models:
                 - unique
                 - not_null
 
+    - name: my_second_dbt_model
+      description: "A starter dbt model"
+      columns:
+          - name: dd
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+   
+   
+   
+   
+   
+   
+   
    
