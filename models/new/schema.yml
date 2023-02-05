@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: fivetran
+      description: "A starter dbt model"
+      columns:
+          - name: dd
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+   
