@@ -1,11 +1,6 @@
 {{ config(materialized='table') }}
 
-with source_data as (
 
-    select
-        id as customer_id
-
-)
 
 
 
