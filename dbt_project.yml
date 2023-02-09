@@ -38,8 +38,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
  fivetran:
     # Applies to all files under models/example/
-    example:
-      materialized: view
+   
 models:
   jaffle_shop:
     +materialized: table
